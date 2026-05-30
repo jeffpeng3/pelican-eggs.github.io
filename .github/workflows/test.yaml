@@ -1,0 +1,41 @@
+name: clone repos
+on: [workflow_dispatch]
+jobs:
+  clone:
+    runs-on: ubuntu-latest
+    env:
+      REPO_LIST: |
+        pelican-eggs/chatbots
+        pelican-eggs/database
+        pelican-eggs/games-standalone
+        pelican-eggs/games-steamcmd
+        pelican-eggs/generic
+        pelican-eggs/minecraft
+        pelican-eggs/monitoring
+        pelican-eggs/storage
+        pelican-eggs/voice
+        pelican-eggs/software
+    steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v6
+
+      - name: Clone repo list
+        run: |
+          mkdir -p repos
+          while read -r repo; do
+            if [ -n "$repo" ]; then
+              target="repos/$(basename "$repo")"
+              git clone "https://github.com/$repo.git" "$target"
+            fi
+          done <<< "$REPO_LIST"
+
+      - name: Show cloned repos
+        run: |
+          ls -1 repos
+
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
+
+          
+
+      
