@@ -2353,6 +2353,17 @@
 				},
 				{
 					"egg": {
+						"name": "The Ship: Murder Party",
+						"meta": {
+							"version": "PLCN_v3"
+						},
+						"description": "The Ship: Murder Party dedicated server. The native Linux server is broken on modern systems, so this runs the Windows dedicated server under Wine. Requires a licensed Steam account (anonymous is refused)."
+					},
+					"download_url": "https://raw.githubusercontent.com/pelican-eggs/games-steamcmd/refs/heads/main/the_ship/egg-the-ship.yaml",
+					"readme": ""
+				},
+				{
+					"egg": {
 						"name": "The Front",
 						"meta": {
 							"version": "PLCN_v1"

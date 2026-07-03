@@ -2177,6 +2177,17 @@
 				},
 				{
 					"egg": {
+						"name": "The Ship: Murder Party",
+						"meta": {
+							"version": "PTDL_v2"
+						},
+						"description": "The Ship: Murder Party dedicated server. The native Linux server is broken on modern systems, so this runs the Windows dedicated server under Wine. Requires a licensed Steam account (anonymous is refused)."
+					},
+					"download_url": "https://raw.githubusercontent.com/pelican-eggs/games-steamcmd/refs/heads/main/the_ship/egg-pterodactyl-the-ship.json",
+					"readme": ""
+				},
+				{
+					"egg": {
 						"name": "The Front",
 						"meta": {
 							"version": "PTDL_v2"
