@@ -2461,9 +2461,9 @@
 						"meta": {
 							"version": "PTDL_v2"
 						},
-						"description": "a generic node.js egg  This will clone a git repo. it defaults to master if no branch is specified.  Installs the node_modules on install. If you set user_upload then I assume you know what you are doing."
+						"description": "a generic node.js egg This will clone a git repo. it defaults to master if no branch is specified. Installs the node_modules on install. If you set user_upload then I assume you know what you are doing."
 					},
-					"download_url": "https://raw.githubusercontent.com/pelican-eggs/generic/refs/heads/main/nodejs/egg-pterodactyl-node-js-generic.json",
+					"download_url": "https://raw.githubusercontent.com/pelican-eggs/generic/refs/heads/main/nodejs/pterodactyl-egg-nodejs-generic.json",
 					"readme": ""
 				},
 				{
