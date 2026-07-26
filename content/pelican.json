@@ -1572,13 +1572,13 @@
 				},
 				{
 					"egg": {
-						"name": "Icarus-Dedicated",
+						"name": "Icarus",
 						"meta": {
-							"version": "PLCN_v1"
+							"version": "PLCN_v3"
 						},
 						"description": "Icarus is a survival game that with dedicated servers as a public beta"
 					},
-					"download_url": "https://raw.githubusercontent.com/pelican-eggs/games-steamcmd/refs/heads/main/icarus/egg-icarus--dedicated.json",
+					"download_url": "https://raw.githubusercontent.com/pelican-eggs/games-steamcmd/refs/heads/main/icarus/egg-icarus.yaml",
 					"readme": ""
 				},
 				{
