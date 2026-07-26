@@ -1440,13 +1440,13 @@
 				},
 				{
 					"egg": {
-						"name": "Icarus-Dedicated",
+						"name": "Icarus",
 						"meta": {
 							"version": "PTDL_v2"
 						},
 						"description": "Icarus is a survival game that with dedicated servers as a public beta"
 					},
-					"download_url": "https://raw.githubusercontent.com/pelican-eggs/games-steamcmd/refs/heads/main/icarus/egg-pterodactyl-icarus--dedicated.json",
+					"download_url": "https://raw.githubusercontent.com/pelican-eggs/games-steamcmd/refs/heads/main/icarus/pterodactyl-egg-icarus.json",
 					"readme": ""
 				},
 				{
